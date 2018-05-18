@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>designModel.trimmerModel</OriginalElement>
+  <nodes>
+    <node x="638.0" y="416.0">designModel.trimmerModel.coffeeBar.coffee.ShortBlack</node>
+    <node x="724.5" y="277.5">designModel.trimmerModel.coffeeBar.coffee.Coffee</node>
+    <node x="0.0" y="87.0">designModel.trimmerModel.coffeeBar.CoffeeBar</node>
+    <node x="960.0" y="416.0">designModel.trimmerModel.coffeeBar.coffee.Espresso</node>
+    <node x="800.0" y="416.0">designModel.trimmerModel.coffeeBar.coffee.LongBlack</node>
+    <node x="0.0" y="416.0">designModel.trimmerModel.coffeeBar.decorator.Milk</node>
+    <node x="438.125" y="0.0">designModel.trimmerModel.coffeeBar.Drink</node>
+    <node x="353.0" y="416.0">designModel.trimmerModel.coffeeBar.decorator.Soy</node>
+    <node x="145.0" y="242.0">designModel.trimmerModel.coffeeBar.decorator.Decorator</node>
+    <node x="156.0" y="416.0">designModel.trimmerModel.coffeeBar.decorator.Choocolate</node>
+    <node x="505.0" y="416.0">designModel.trimmerModel.coffeeBar.coffee.Deacf</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="designModel.trimmerModel.coffeeBar.coffee.ShortBlack" target="designModel.trimmerModel.coffeeBar.coffee.Coffee">
+      <point x="0.0" y="-26.5" />
+      <point x="709.0" y="396.0" />
+      <point x="773.25" y="396.0" />
+      <point x="-16.25" y="26.5" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.coffee.LongBlack" target="designModel.trimmerModel.coffeeBar.coffee.Coffee">
+      <point x="0.0" y="-26.5" />
+      <point x="870.0" y="396.0" />
+      <point x="805.75" y="396.0" />
+      <point x="16.25" y="26.5" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.coffee.Espresso" target="designModel.trimmerModel.coffeeBar.coffee.Coffee">
+      <point x="0.0" y="-26.5" />
+      <point x="1026.5" y="386.0" />
+      <point x="838.25" y="386.0" />
+      <point x="48.75" y="26.5" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.decorator.Soy" target="designModel.trimmerModel.coffeeBar.decorator.Decorator">
+      <point x="0.0" y="-26.5" />
+      <point x="419.0" y="396.0" />
+      <point x="310.8333333333333" y="396.0" />
+      <point x="66.33333333333331" y="62.0" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.decorator.Milk" target="designModel.trimmerModel.coffeeBar.decorator.Decorator">
+      <point x="0.0" y="-26.5" />
+      <point x="68.0" y="396.0" />
+      <point x="178.16666666666669" y="396.0" />
+      <point x="-66.33333333333331" y="62.0" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.decorator.Decorator" target="designModel.trimmerModel.coffeeBar.Drink">
+      <point x="0.0" y="-62.0" />
+      <point x="244.5" y="217.0" />
+      <point x="493.625" y="217.0" />
+      <point x="-55.5" y="96.0" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.coffee.Coffee" target="designModel.trimmerModel.coffeeBar.Drink">
+      <point x="0.0" y="-26.5" />
+      <point x="789.5" y="217.0" />
+      <point x="604.625" y="217.0" />
+      <point x="55.5" y="96.0" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.coffee.Deacf" target="designModel.trimmerModel.coffeeBar.coffee.Coffee">
+      <point x="0.0" y="-26.5" />
+      <point x="561.5" y="386.0" />
+      <point x="740.75" y="386.0" />
+      <point x="-48.75" y="26.5" />
+    </edge>
+    <edge source="designModel.trimmerModel.coffeeBar.decorator.Choocolate" target="designModel.trimmerModel.coffeeBar.decorator.Decorator">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="546.5" y="282.5" />
+  <SelectedNodes>
+    <node>designModel.trimmerModel.coffeeBar.CoffeeBar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
