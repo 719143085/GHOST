@@ -6,7 +6,7 @@ import designModel.trimmerModel.coffeeBar.decorator.Chocolate;
 import designModel.trimmerModel.coffeeBar.decorator.Milk;
 
 /**
- * 1、装饰者模式就像打包一个快递
+ *  1、装饰者模式就像打包一个快递
  *      1）主体：陶瓷、塑料
  *      2）包装：报纸填充、塑料泡沫、纸板、木板
  *  2、Component
@@ -17,15 +17,15 @@ public class CoffeeBar {
     public static void main(String[] args) {
         Drink drink;
         drink = new Decaf();
-        System.out.println("Description====" + drink.getDescription());
-        System.out.println("Price====" + drink.getPrice());
+        System.out.println("您的订单为：\n" + drink.getDescription());
+        System.out.println("总价为：" + drink.getPrice() + "元");
         System.out.println("****************");
         drink = new LongBlack();
         drink = new Milk(drink);
         drink = new Chocolate(drink);
         drink = new Chocolate(drink);
-        System.out.println("Description====" + drink.getDescription());
-        System.out.println("Price====" + drink.getPrice());
+        System.out.println("您的订单为：\n" + drink.getDescription());
+        System.out.println("总价为：" + drink.cost() + "元");
 
     }
 }

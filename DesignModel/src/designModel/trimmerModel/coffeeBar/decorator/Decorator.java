@@ -20,6 +20,6 @@ public class Decorator extends Drink {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "-" + super.getPrice() + "&&" + drink.getDescription();
+        return super.getDescription()  + drink.getDescription();
     }
 }

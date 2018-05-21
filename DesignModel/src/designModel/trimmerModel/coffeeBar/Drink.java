@@ -6,7 +6,7 @@ public abstract class Drink {
     private float price = 0f;
 
     public String getDescription() {
-        return description + "的价格为：" + this.getPrice() + "元";
+        return description + "：" + this.getPrice() + "元\n";
     }
 
     public void setDescription(String description) {

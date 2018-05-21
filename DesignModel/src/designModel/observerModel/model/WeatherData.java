@@ -1,9 +1,9 @@
 package designModel.observerModel.model;
 
+import java.util.ArrayList;
+
 import designModel.observerModel.observer.ObserverWeather;
 import designModel.observerModel.observer.SubjectWeather;
-
-import java.util.ArrayList;
 
 public class WeatherData implements SubjectWeather {
 

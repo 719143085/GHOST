@@ -1,9 +1,9 @@
 package designModel.observerModel.innerObserver;
 
-import designModel.observerModel.innerObserver.WeatherDataEx.Data;
-
 import java.util.Observable;
 import java.util.Observer;
+
+import designModel.observerModel.innerObserver.WeatherDataEx.Data;
 
 public class TomorrowConditionsEx implements Observer{
 	
